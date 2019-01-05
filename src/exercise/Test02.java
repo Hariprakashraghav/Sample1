@@ -43,6 +43,7 @@ public class Test02 {
 		@Test(priority=5)
 		public void validateTranPage() {
 			tc02.validateTranPage(driver,"Apple TV");
+			System.out.println("second test case completed");
 		}
 		
 		@AfterTest
