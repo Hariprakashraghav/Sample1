@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="4" ignored="0" total="6" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Ethoca_Challenge" duration-ms="80724" started-at="2019-01-02T23:43:04Z" finished-at="2019-01-02T23:44:25Z">
+  <suite name="Ethoca_Challenge" duration-ms="76908" started-at="2019-01-05T21:10:04Z" finished-at="2019-01-05T21:11:21Z">
     <groups>
     </groups>
-    <test name="MagicMouse_Purchase" duration-ms="30721" started-at="2019-01-02T23:43:04Z" finished-at="2019-01-02T23:43:35Z">
+    <test name="MagicMouse_Purchase" duration-ms="28551" started-at="2019-01-05T21:10:04Z" finished-at="2019-01-05T21:10:33Z">
       <class name="exercise.Test01">
-        <test-method status="PASS" signature="iniTest()[pri:0, instance:exercise.Test01@46daef40]" name="iniTest" is-config="true" duration-ms="2715" started-at="2019-01-02T23:43:04Z" finished-at="2019-01-02T23:43:07Z">
+        <test-method status="PASS" signature="iniTest()[pri:0, instance:exercise.Test01@7a3d45bd]" name="iniTest" is-config="true" duration-ms="3052" started-at="2019-01-05T21:10:04Z" finished-at="2019-01-05T21:10:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iniTest -->
-        <test-method status="FAIL" signature="TestCase01()[pri:0, instance:exercise.Test01@46daef40]" name="TestCase01" duration-ms="27361" started-at="2019-01-02T23:43:07Z" finished-at="2019-01-02T23:43:34Z">
+        <test-method status="FAIL" signature="TestCase01()[pri:0, instance:exercise.Test01@7a3d45bd]" name="TestCase01" duration-ms="24763" started-at="2019-01-05T21:10:07Z" finished-at="2019-01-05T21:10:32Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Error has occured during Validating product]]>
@@ -52,27 +52,27 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase01 -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:exercise.Test01@46daef40]" name="cleanUp" is-config="true" duration-ms="623" started-at="2019-01-02T23:43:34Z" finished-at="2019-01-02T23:43:35Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:exercise.Test01@7a3d45bd]" name="cleanUp" is-config="true" duration-ms="677" started-at="2019-01-05T21:10:32Z" finished-at="2019-01-05T21:10:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
       </class> <!-- exercise.Test01 -->
     </test> <!-- MagicMouse_Purchase -->
-    <test name="AppleTV_Purchase" duration-ms="49958" started-at="2019-01-02T23:43:35Z" finished-at="2019-01-02T23:44:25Z">
+    <test name="AppleTV_Purchase" duration-ms="48287" started-at="2019-01-05T21:10:33Z" finished-at="2019-01-05T21:11:21Z">
       <class name="exercise.Test02">
-        <test-method status="PASS" signature="iniTest()[pri:0, instance:exercise.Test02@52f759d7]" name="iniTest" is-config="true" duration-ms="2045" started-at="2019-01-02T23:43:35Z" finished-at="2019-01-02T23:43:37Z">
+        <test-method status="PASS" signature="iniTest()[pri:0, instance:exercise.Test02@64f6106c]" name="iniTest" is-config="true" duration-ms="2157" started-at="2019-01-05T21:10:33Z" finished-at="2019-01-05T21:10:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iniTest -->
-        <test-method status="PASS" signature="login()[pri:1, instance:exercise.Test02@52f759d7]" name="login" duration-ms="2374" started-at="2019-01-02T23:43:37Z" finished-at="2019-01-02T23:43:39Z">
+        <test-method status="PASS" signature="login()[pri:1, instance:exercise.Test02@64f6106c]" name="login" duration-ms="2331" started-at="2019-01-05T21:10:35Z" finished-at="2019-01-05T21:10:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="SelectItem()[pri:2, instance:exercise.Test02@52f759d7]" name="SelectItem" duration-ms="2480" started-at="2019-01-02T23:43:39Z" finished-at="2019-01-02T23:43:42Z">
+        <test-method status="PASS" signature="SelectItem()[pri:2, instance:exercise.Test02@64f6106c]" name="SelectItem" duration-ms="2847" started-at="2019-01-05T21:10:37Z" finished-at="2019-01-05T21:10:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectItem -->
-        <test-method status="FAIL" signature="validateProduct_Select()[pri:3, instance:exercise.Test02@52f759d7]" name="validateProduct_Select" duration-ms="20062" started-at="2019-01-02T23:43:42Z" finished-at="2019-01-02T23:44:02Z">
+        <test-method status="FAIL" signature="validateProduct_Select()[pri:3, instance:exercise.Test02@64f6106c]" name="validateProduct_Select" duration-ms="20081" started-at="2019-01-05T21:10:40Z" finished-at="2019-01-05T21:11:00Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Error has occured during Validating product]]>
@@ -113,7 +113,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateProduct_Select -->
-        <test-method status="FAIL" signature="enterUserDetails()[pri:4, instance:exercise.Test02@52f759d7]" name="enterUserDetails" duration-ms="20044" started-at="2019-01-02T23:44:02Z" finished-at="2019-01-02T23:44:22Z">
+        <test-method status="FAIL" signature="enterUserDetails()[pri:4, instance:exercise.Test02@64f6106c]" name="enterUserDetails" duration-ms="20030" started-at="2019-01-05T21:11:00Z" finished-at="2019-01-05T21:11:20Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Error has occured during User entry details page]]>
@@ -154,7 +154,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterUserDetails -->
-        <test-method status="FAIL" signature="validateTranPage()[pri:5, instance:exercise.Test02@52f759d7]" name="validateTranPage" duration-ms="50" started-at="2019-01-02T23:44:22Z" finished-at="2019-01-02T23:44:22Z">
+        <test-method status="FAIL" signature="validateTranPage()[pri:5, instance:exercise.Test02@64f6106c]" name="validateTranPage" duration-ms="102" started-at="2019-01-05T21:11:20Z" finished-at="2019-01-05T21:11:20Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Transaction page NOT displayed expected [true] but found [false]]]>
@@ -197,7 +197,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTranPage -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:exercise.Test02@52f759d7]" name="cleanUp" is-config="true" duration-ms="2887" started-at="2019-01-02T23:44:22Z" finished-at="2019-01-02T23:44:25Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:exercise.Test02@64f6106c]" name="cleanUp" is-config="true" duration-ms="702" started-at="2019-01-05T21:11:20Z" finished-at="2019-01-05T21:11:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
